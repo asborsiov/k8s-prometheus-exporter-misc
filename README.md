@@ -1,6 +1,5 @@
 # K8s prometheus custom exporter
 
-I started to write this (long missing) exporter which provides custom metrics for:<br>
 <br>
 
 ```
@@ -10,4 +9,4 @@ MEMORY_LIMIT_CAPACITY - displays percentage of cluster limits capacity.
 ```
 
 <br>
-Sadly, it works only on 1.15 release, just like the python k8s library itself on the moment of writing. Considering this, it was not tested on live.
+Works only on 1.15 release, restricted on the moment of creation by Python library itself.
